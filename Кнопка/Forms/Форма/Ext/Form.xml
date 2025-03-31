@@ -6,8 +6,14 @@
 	<ViewModeApplicationOnSetReportResult>Auto</ViewModeApplicationOnSetReportResult>
 	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
 	<ChildItems>
-		<UsualGroup name="Группа1" id="6">
-			<ExtendedTooltip name="Группа1РасширеннаяПодсказка" id="7"/>
+		<UsualGroup name="СчетчикНажатий" id="6">
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Счетчик нажатий</v8:content>
+				</v8:item>
+			</ToolTip>
+			<ExtendedTooltip name="СчетчикНажатийРасширеннаяПодсказка" id="7"/>
 			<ChildItems>
 				<InputField name="Счетчик" id="3">
 					<DataPath>Счетчик</DataPath>
